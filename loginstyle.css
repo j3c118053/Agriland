@@ -1,0 +1,127 @@
+body{
+    background-color:rgb(243, 243, 243);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    
+}
+.container {
+	width : 2056px;
+	margin-left: 100px;
+	
+	
+}
+
+
+.left {
+	float : left;
+
+	
+}
+
+.right {
+	float : right;
+	
+}
+
+.clear {
+	clear :both;
+}
+#section1{
+   padding: 10px;
+   height: 65px;
+  
+    background-color:white;
+  
+}
+
+#section1 ul{
+	list-style:none;
+	padding:0;
+    font-size: 14px;
+    
+	
+}
+
+#section1 ul>li {
+    display: inline;
+    padding:20px;
+   
+	
+}
+
+#section1 ul>li>a {
+	text-decoration:none;
+	padding:12px 0;
+    color: black;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section1 ul > li :hover{
+	color:#00b894;
+	
+	
+	
+}	
+
+
+#section1 ul > li:last-child{
+	border-right: 1px;
+	border-left: 1px;
+	border-color: grey;
+
+}
+
+
+.kotak-login h1 {
+
+    color: black ;
+    text-align: center;
+    text-shadow: black 2px;
+}
+
+.kotak-login{
+    background-color: white;
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    padding-bottom: 50px;
+    
+}
+a:hover{
+    color:#00b894;
+}
+
+#kotak-info{
+	background-image: url('section7.jpg');
+	
+	
+	
+    color:white;
+    padding: 20px;
+}
+
+#kotak-info .col-sm ul>li:hover{
+	color:green;
+
+}
+
+#kotak-info .col-sm ul > li{
+	list-style: none;
+	text-align: left;
+    margin: 0px;
+    
+}
+
+
+
+#footer {
+	background-color: green;
+	color: white;
+	
+	text-align: center;	
+
+}

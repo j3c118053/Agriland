@@ -1,0 +1,178 @@
+body{
+	color : black;
+	background-color:white;
+	font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size : 13px;
+	margin: 0;
+}
+
+.section {
+	padding : 40px 0;
+	background-color: whitesmoke;
+}
+
+.container {
+	width : 2056px;
+	margin : auto;
+	
+	
+}
+
+.untung {
+    color:green;
+}
+
+.left {
+	float : left;
+
+	
+}
+
+.right {
+	float : right;
+	
+}
+
+.clear {
+	clear :both;
+}
+
+#section1, #section2, #section3{
+    background-color: white;
+}
+
+#section1{
+	background-image: url("section1.jpg");
+	background-color: #a9a9a9;
+	padding-bottom: 90px;
+	
+	
+	
+}
+
+#section1{
+	margin-left: 5px;
+	
+
+}
+
+#section1 ul{
+	list-style:none;
+	padding:0;
+	font-size: 14px;
+	
+}
+
+#section1 ul>li {
+    display: inline;
+	padding:20px;
+	
+}
+
+#section1 ul>li>a {
+	text-decoration:none;
+	padding:12px 0;
+	color: white;
+}
+
+#section1 ul > li :hover{
+	color: black;
+	
+	
+	
+}	
+
+
+#section1 ul > li:last-child{
+	border-right: 1px;
+	border-left: 1px;
+	border-color: grey;
+
+}
+
+#section2
+{
+	margin: auto;
+
+}
+#section3{
+	margin: auto;
+	padding-bottom: 150px;
+
+	
+	
+}
+
+
+
+#section4 {
+	background-image: url('petanibackground.jpg');
+	color: white;
+	
+	padding-bottom: 100px;
+	padding-left: 100px ;
+	padding-right: 100px;
+	margin: auto;
+	
+	
+	
+}
+
+
+#section5{
+	background-color: whitesmoke;
+	color:black;
+	margin:auto;
+	
+}
+#section5 .card{
+	margin: 30px;
+	
+}
+
+
+
+
+
+#section6{
+	background-color: #dfdce3;
+	padding: 40px;
+	padding-bottom: 50px ;
+	margin:auto;
+
+	
+}
+#section6 form{
+	margin-left: 20px;
+}
+
+#section7{
+	background-image: url('section7.jpg');
+	
+	padding-bottom: 50px;
+	
+	color:white
+}
+
+#section7 .col-sm ul>li:hover{
+	color:green;
+
+}
+
+#section7 .col-sm ul > li{
+	list-style: none;
+	text-align: left;
+	margin: 0px;
+}
+
+
+
+
+
+#section8 {
+	background-color: green;
+	color: white;
+	padding:5px;
+	text-align: center;	
+
+}
